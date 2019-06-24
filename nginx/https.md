@@ -1,9 +1,10 @@
 # Steps to enable SSL encryption in `Nginx` with `letsencrypt` 
 This post is summarised from this [post](https://certbot.eff.org/lets-encrypt/arch-nginx.html)
 
-1) install crertbot then run this command `sudo certbot --nginx`
-2) `sudo certbot --nginx certonly`
-3) done !
+1) install `sudo add-apt-repository ppa:certbot/certbot`
+2) install crertbot then run this command `sudo certbot --nginx`
+3) `sudo certbot --nginx certonly`
+4) done !
 
 ## For wildcaed
 
