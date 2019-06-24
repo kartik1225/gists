@@ -2,9 +2,11 @@
 This post is summarised from this [post](https://certbot.eff.org/lets-encrypt/arch-nginx.html)
 
 1) install `sudo add-apt-repository ppa:certbot/certbot`
-2) install crertbot then run this command `sudo certbot --nginx`
-3) `sudo certbot --nginx certonly`
-4) done !
+2) `sudo apt-get update`
+3) `sudo apt-get install python-certbot-nginx`
+4) install crertbot then run this command `sudo certbot --nginx`
+5) `sudo certbot --nginx certonly`
+6) done !
 
 ## For wildcaed
 
