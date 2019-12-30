@@ -5,7 +5,7 @@ This post is summarised from this [post](https://certbot.eff.org/lets-encrypt/ar
 2) `sudo apt-get update`
 3) `sudo apt-get install python-certbot-nginx`
 4) install crertbot then run this command `sudo certbot --nginx`
-5) `sudo certbot --nginx certonly`
+5) `sudo certbot`
 6) done !
 
 ## For wildcaed
